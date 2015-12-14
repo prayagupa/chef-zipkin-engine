@@ -6,5 +6,5 @@
 #
 # All rights reserved - Do Not Redistribute
 file '/tmp/zipkin.yaml' do
-	  content 'host:10.10.10.10'
+	  content node['zipkin']['host']
 end
